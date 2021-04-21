@@ -1,0 +1,444 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Tahoma;
+}
+
+/*
+    container>>
+*/
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    background-color: #eee;
+    border-radius: 15px;
+    position: relative;
+    top: -80px;
+    background-color:#eee;
+    box-shadow: 3px 3px 15px -2px rgba(0,0,0,0.7);
+
+}
+
+
+/*
+    << container
+*/
+
+/*
+    header >>
+*/
+
+
+header{
+    width: 100%;
+    height:80px;
+    display: flex;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 2;
+    background-color: rgb(5, 5, 60);
+    color:#eee;
+}
+header .logo{
+    width: 30%;
+    padding: 24px 0;
+    padding-left: 40px;
+    cursor: pointer;
+}
+header nav.nav-desktop{
+    width: 70%;
+    text-align: right;
+    padding: 0 40px;
+}
+header nav.nav-mobile{
+    display: none;
+}
+header nav.nav-desktop ul{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+header nav.nav-desktop ul a{
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+    color: white;
+}
+header nav.nav-desktop ul li{
+    line-height: 50px;
+    height: 100%;
+    list-style: none;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+header nav.nav-desktop ul li:hover{
+    background-color:  rgb(221, 98, 10);
+}
+
+
+/*
+    << header
+*/
+
+/*
+    section image home >>
+*/
+
+section.image-home{
+    position: relative;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*
+    << section image home 
+*/
+
+/*
+    section profile >>
+*/
+section.profile-section{
+    width: 100%;
+    height: 100%;
+}
+section .profile-content{
+    width: 100%;
+    height:100%;
+    padding: 40px 0;
+    display:flex;
+}
+
+.wrap-image{
+    width: 40%;
+    padding-left: 40px;
+   
+}
+.profile-image{
+    width: 350px;
+    height: 350px;
+    background-image: url("../images/profile.png");
+    background-size: contain; 
+    background-position: center;
+    
+
+}
+.wrap-discription{
+    width: 60%;
+    padding: 110px 20px;
+}
+.profile-name{
+    width: 480px;
+}
+.profile-name h1{
+    font-size: 70px;
+    color: #333;
+}
+.profile-name .caption{
+    width: 100%;
+    padding: 0 5px;
+}
+.profile-name .contact{
+    width: 20%;
+    display:inline-block;
+}
+.profile-name .contact a{
+    font-size: 20px;
+    color: #aaa;
+    padding: 0 3px;
+    text-decoration: none;
+}
+.profile-name .contact .github:hover{
+    color:#555;
+}
+.profile-name .contact .gmail:hover{
+    color:#db4a39 ;
+    
+}
+.profile-name p{
+    width: 75%;
+    display: inline-block;
+    text-align: right;
+    color: #aaa;
+}
+
+/*
+    << section profile
+*/
+
+/*
+    section info >>
+*/
+
+section.info-section{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 98, 10);
+    color: #eee;
+   
+}
+section.info-section .content-info{
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    text-align: center;
+    padding: 40px 0;
+}
+section.info-section h2{
+    font-size: 30px;
+}
+section.info-section p{
+    padding: 60px 0;
+    font-size: 18px;
+}
+
+/*
+    << section info
+*/
+
+/*
+    section skills >>
+*/
+
+section.skills-section{
+    width: 100%;
+    height: 100%;
+    padding: 60px 20px;
+
+}
+section.skills-section h2{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(221, 98, 10);
+    margin-bottom:40px;
+}
+section .skills-content{
+    display:flex;
+    width:100%;
+    height:100%;
+    padding: 0 40px;
+}
+.wrap50{
+    padding: 30px 10px;
+    width: 45%;
+    border: 3px solid rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 15px -2px rgba(0,0,0,0.4);
+}
+
+.wrap50 h3{
+    font-size:22px;
+    display: inline-block;
+    color: #666;
+    margin-bottom: 10px;
+}
+.wrap50 ul{
+    width: 100%;
+    padding: 0 10px;
+}
+.wrap50 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+
+/*
+    << section skills 
+*/
+
+/*
+    section courses >>
+*/
+
+section.courses-section{
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+    background-color: rgb(3, 3, 53);
+}
+section.courses-section h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:40px;
+    color: white;
+}
+.card-wrap{
+    display:flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.card-wrap50{
+    width: 46%;
+    background-color: rgb(25, 25, 90);
+    line-height: 35px;
+    color:white;
+    padding: 30px 20px;
+    box-shadow: 3px 3px 15px -2px rgba(0,0,0,0.3);
+}
+.card-wrap50 .card-title{
+    font-size:20px;
+    height: 60%;
+    color: rgba(221, 98, 10, 0.89);
+    margin-bottom:10px;
+
+}
+.card-wrap50 .card-description p{
+    height:40%;
+    color: #ddd;
+}
+
+/*
+    << section courses
+*/
+
+footer{
+    width: 100%;
+    font-size: 15px;
+    padding: 25px 0;
+    background-color:#222;
+    color:white;
+    text-align: center;
+}
+
+/*
+    Media queries >>
+*/
+
+@media screen and (max-width:860px){
+    header nav.nav-desktop{
+        display: none;
+    }
+    header .logo{
+        font-size: 15px;
+    }
+    header nav.nav-mobile{
+        display: block;
+        width: 10%;
+    }
+    header nav.nav-mobile h1{
+        padding: 12px 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    #disable-icon{
+        display: none;
+    }
+    header .logo{
+        width: 70%;
+    }
+    nav.nav-mobile ul{
+        display: none;
+        z-index: 999;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left:0;
+        top: 60px;
+        background-color: rgb(2, 2, 45);
+    }
+    nav.nav-mobile ul li{
+        padding:20px 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    nav.nav-mobile ul a{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    header nav.nav-mobile ul li:hover{
+        background-color:  rgb(221, 98, 10);
+    }
+
+    section .profile-content{
+        width: 100%;
+        height:100%;
+        padding: 20px 0;
+        display:inline-block;
+    }
+    
+    .wrap-image{
+        width: 100%;
+        padding-left: 0;
+       
+    }
+    .wrap-discription{
+        width: 100%;
+        padding: 0px 0px;
+        padding-bottom: 40px;
+    }
+    .profile-name{
+        width: 300px;
+    }
+    .profile-name h1{
+        text-align: center;
+        font-size: 45px;
+ 
+    }
+    .profile-name .caption{
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    .profile-name .contact a{
+        font-size: 19px;
+        padding: 0 3px;
+    }
+
+    .profile-name p{
+        width: 77%;
+        font-size: 19px;
+    }
+
+    section.info-section .content-info{
+        padding: 40px 30px;
+    }
+
+    section.skills-section h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    section .skills-content{
+        display:inline-block;
+        padding: 0 5px;
+    }
+    .wrap50{
+        padding: 30px 10px;
+        width: 100%;
+        margin-bottom:20px;
+    }
+    
+    .wrap50 h3{
+        font-size:24px;
+        margin-bottom: 10px;
+    }
+    .wrap50 ul{
+        padding: 0 0px;
+        padding-left: 5px;
+    }
+    
+    .card-wrap{
+        display:inline-block;
+        margin-bottom: 0px;
+    }
+    .card-wrap50{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*
+    << Media queries 
+*/
