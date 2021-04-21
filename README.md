@@ -4,7 +4,7 @@
    - [x] Site Responsivo
  
 # Instruções
- - Para abrir o site baixe e abra o aquivo chamado: Index.html ou aperte no link acima.
+ - Para abrir o site baixe e abra o aquivo chamado "Index.html" ou aperte no link abaixo.
  - Alguns icons só apareceram caso esteja com internet(modo offline)
  
  ***
